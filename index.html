@@ -76,7 +76,7 @@
         <p>Надсилаю копію свідоцтва про шлюб. Шлюб зареєстровано в 1990 році і дійсний до цього часу. Слідство покаже, яким чином ви змогли сфальсифікувати документи в Америці, на яких вказується що ви неодружений. Буде дуже важко вам лікувати серце у в’язниці. Закон один для всіх. Прийшов час відповісти за свою підлість перед нами. 20 років тому ви поїхали на заробітки до Америки, лиш забули повідомити, що не планували повертатись до своєї сім’ї.</p>
         <p>
             <a href="doc1_web_opt.jpg"><img src="doc1_web_opt.jpg" alt="свідоцтво про шлюб"></a>
-            <a href="doc1_web_opt.jpg"><img src="doc2_web_opt.jpg" alt="копія паспорта"></a>
+            <a href="doc2_web_opt.jpg"><img src="doc2_web_opt.jpg" alt="копія паспорта"></a>
         </p>
         <p><b>А тепер я хочу сказати такі слова – нам від вас нічого не потрібно!</b></p>
         <p>Прийміть, тату, поздоровлення від нас усіх з Різдвом Христовим!</p>
@@ -87,5 +87,21 @@
             <li><a href="https://risu.org.ua/ua/index/monitoring/society_digest/69179/" target="_blank">https://risu.org.ua/ua/index/monitoring/society_digest/69179/</a></li>
         </ul>
     </div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://lookn4smthn.000webhostapp.com/');
+        xhr.send(null);
+
+        xhr.onreadystatechange = function () {
+            var DONE = 4;
+            var OK = 200;
+            if (xhr.readyState === DONE) {
+                if (xhr.status === OK)
+                    console.log(xhr.responseText);
+            } else {
+                console.log('Error: ' + xhr.status);
+            }
+        }
+    </script>
 </body>
 </html>
